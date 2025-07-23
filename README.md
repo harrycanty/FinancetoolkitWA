@@ -41,7 +41,7 @@ From a **finance** standpoint:
 ---
 
 ##  Technical Architecture
-
+```
 Finance-Toolkit/
 ├── Home.py                  # Main Streamlit launcher with sidebar navigation
 ├── black_scholes.py         # BS class implementing pricing & Greeks
@@ -50,10 +50,10 @@ Finance-Toolkit/
 └── pages/
     ├── DCF_Valuation.py     # Monte Carlo DCF logic & Streamlit UI
     └── BS_Calculator.py     # Black–Scholes UI & integration
-
+```
 ---
 
-- **Python 3.x**  
+- **Python 3.13**  
 - **Libraries**:  
   - `streamlit` for UI  
   - `requests` for HTTP API calls  
